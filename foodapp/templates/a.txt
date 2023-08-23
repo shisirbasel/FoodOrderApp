@@ -1,0 +1,3 @@
+<button class="minus">-</button>
+<p id="quanity">1</p>
+<button class="plus">+</button>

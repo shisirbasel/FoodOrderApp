@@ -1,0 +1,130 @@
+.best{
+    padding-left: 80px;
+    padding-top: 160px;
+    font-family: 'Tilt Prism', cursive;
+    color: white;
+    font-size: 70px
+}
+
+.delivery{
+    padding-left: 70px;
+    padding-top: 70px;
+    font-family: 'Tilt Prism', cursive;
+    color: rgb(0, 0, 0);
+    font-size: 55px;
+}
+.button a{
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    padding: 20px;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 20px;
+    border-radius: 20px;
+    margin-left: 375px;
+}
+
+.button a:hover{
+    padding: 22px;
+}
+
+.photo img{
+    width: 700px;
+    height: auto;
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-bottom: 50px;
+    border: 4px solid black;
+}
+.bottom{
+    display: flex;
+    border-bottom:3px solid black;
+}
+
+.delivery a{
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    padding: 20px;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 20px;
+    border-radius: 20px;
+    margin-left: 150px;
+    margin-top: -30px;
+}
+.delivery a:hover{
+    padding: 22px;
+}
+
+.specials p{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 40px;
+    margin-left: 100px;
+    font-weight: bold;
+    text-decoration: underline;
+}
+.foodimage img{
+    height: 120px;
+    width: 120px;
+    margin-left:40px;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+.items{
+    padding: 10px;
+    margin: 40px;
+    height: 250px;
+    width: 200px;
+    border-radius: 15px;
+    box-shadow: 0px 106px 42px rgba(0, 0, 0, 0.01),
+            0px 59px 36px rgba(0, 0, 0, 0.05), 0px 26px 26px rgba(0, 0, 0, 0.09),
+            0px 7px 15px rgba(0, 0, 0, 0.1), 0px 0px 0px rgba(0, 0, 0, 0.1);
+}
+.name{
+    text-align: center;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 20px;
+}
+
+.itembutton{
+    display:flex;
+    justify-content: space-around ;
+    border: 1px black;
+
+}
+.itembutton button{
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    border-radius: 10px;
+    height: 40px;
+    margin-left: 10px;
+    border: none;
+    padding: 10px;
+    width:100px;
+}
+.minus,.plus{
+    background-color: black;
+    color: white;
+    height: 30px;
+    width: 50px;
+    padding: 5px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.minus{
+    border-radius: 10px 0px 0px 10px;
+}
+.plus{
+    border-radius: 0px 10px 10px 0px;
+}
+.inter{
+    display: flex;
+}
+.price p{
+    margin-left: 10px;
+    color: grey;
+    margin-left: 30px;
+}
+

@@ -1,0 +1,43 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+.navbar {
+    background-color: black;
+    color: white;
+    padding: 2px;
+    display: flex;
+}
+
+.image img{
+    height: 60px;
+    width: 60px;
+    border-radius: 50px;
+    margin: 7px 10px 7px 50px;
+}
+.left{
+    display: flex;
+}
+
+.right{
+    margin-left:800px;
+    margin-top: 30px; 
+}
+.right a{
+    background-color: transparent;
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    margin: 0px 20px;
+}
+.right a:hover{
+    color: white;
+    font-size: 21px;
+    text-decoration: underline;
+}
+footer{
+    background-color: rgb(35, 32, 32);
+    height: 100px;
+}
